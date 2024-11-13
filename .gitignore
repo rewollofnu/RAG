@@ -1,0 +1,20 @@
+### api key
+workspace/settings.py
+
+### model
+workspace/model
+
+### cache
+cache
+__pycache__
+workspace/__pycache__
+
+### chromastorage
+workspace/chroma_storage
+
+### document pickle file
+workspace/document.pkl
+
+### for test
+test.ipynb
+test.py
