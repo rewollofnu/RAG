@@ -68,13 +68,4 @@ The answer must be written solely in Korean.
 
 return answer only.
 ```
-
-여러 Prompt 방식을 이용하면서, 다음과 같은 결과를 도출할 수 있었습니다.
-- Simple is Best
-	- 여러 복잡한 CoT(Chain of Thought), Analogical Prompting 등등 방법론을 이용하다가 내린 최종 결론
-	- 결과를 비교해 보았을 때 이게 Q&A 시스템에는 적합하지 않거나, Input Token 대비 효율적인 Output에 대한 의구심이 들었다.
-	- 적어도 OpenAI를 이용할 때(Mystrall처럼 Input, Output Prompt 형식이 정해져 있는 경우 말고는),  다음과 같은 Prompt가 가장 효율이 좋다고 생각했다.
-		- 목적은 언제나 간단하게
-		- 짧은 문장을 여러번
-		- 영어를 이용해서 질문하고 답변을 한국어로 바꿔주는 형식
 	
